@@ -1,0 +1,53 @@
+# --- Python / Django ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.pot
+*.mo
+
+# Entornos virtuales
+.venv/
+venv/
+ENV/
+env/
+.Python
+
+# Archivos de configuración local
+*.env
+.env.*
+*.local
+
+# --- Node / React / Vite ---
+node_modules/
+dist/
+build/
+.npm/
+.npm-cache/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Archivos de Vite
+frontend/.vite/
+frontend/dist/
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.iml
+
+# --- MacOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- Otros ---
+Thumbs.db
+*.bak
+*.tmp
+*.swp
+
