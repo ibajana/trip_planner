@@ -22,7 +22,7 @@ export default function TripForm({ onResult }) {
             onResult(res.data);
         } catch (err) {
             console.error(err);
-            alert('Error al planificar el viaje');
+            alert('Error');
         } finally {
             setLoading(true)
         }

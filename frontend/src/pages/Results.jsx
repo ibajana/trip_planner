@@ -70,10 +70,10 @@ export default function Results() {
                 body: JSON.stringify(result)
             })
             if (!res.ok) throw new Error("Error al guardar en backend")
-            alert("Viaje guardado correctamente")
+            alert("Succesfully saved")
         } catch (err) {
             console.error(err)
-            alert("No se pudo guardar el viaje")
+            alert("Error")
         }
     }
 
