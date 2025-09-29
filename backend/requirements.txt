@@ -9,7 +9,6 @@ attrs==25.3.0
 babel==2.17.0
 beautifulsoup4==4.13.5
 bleach==6.2.0
-certifi==2025.8.3
 cffi==2.0.0
 charset-normalizer==3.4.3
 comm==0.2.3
@@ -95,4 +94,12 @@ webcolors==24.11.1
 webencodings==0.5.1
 websocket-client==1.8.0
 zipp==3.23.0
+asgiref==3.9.2
+certifi==2025.8.3
+Django==4.2.24
+django-cors-headers==4.9.0
+djangorestframework==3.16.1
 gunicorn==21.2.0
+psycopg2-binary==2.9.10
+sqlparse==0.5.3
+typing-extensions==4.15.0
