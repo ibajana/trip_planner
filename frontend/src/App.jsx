@@ -10,25 +10,6 @@ import ContactSimpleForm from './pages/ContacForm.jsx'
 function App() {
     return (
         <div>
-            {/* Navbar simple */}
-            {/*<nav className="navbar navbar-expand-lg navbar-dark bg-dark mb-4">*/}
-            {/*    <div className="container-fluid">*/}
-            {/*        <Link className="navbar-brand" to="/">Trip Planner || Log Sheet Generator</Link>*/}
-            {/*        <div>*/}
-            {/*            <ul className="navbar-nav me-auto mb-2 mb-lg-0">*/}
-            {/*                /!*<li className="nav-item">*!/*/}
-            {/*                /!*    <Link className="nav-link" to="/">Login</Link>*!/*/}
-            {/*                /!*</li>*!/*/}
-            {/*                /!*<li className="nav-item">*!/*/}
-            {/*                /!*    <Link className="nav-link" to="/">Logout</Link>*!/*/}
-            {/*                /!*</li>*!/*/}
-            {/*                <li className="nav-item">*/}
-            {/*                    <Link className="nav-link" to="/list">Saved Trips</Link>*/}
-            {/*                </li>*/}
-            {/*            </ul>*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
-            {/*</nav>*/}
             <PillNav
                 logoAlt="Company Logo"
                 items={[

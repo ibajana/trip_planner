@@ -18,7 +18,7 @@ export default function TripForm({ onResult }) {
         e.preventDefault();
         setLoading(true)
         try {
-            const res = await axios.post('http://127.0.0.1:8000/api/plan_trip/', form);
+            const res = await axios.post('https://trip-planner-qzqj.onrender.com/api/plan_trip/', form);
             onResult(res.data);
         } catch (err) {
             console.error(err);

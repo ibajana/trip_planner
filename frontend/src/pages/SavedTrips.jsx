@@ -5,7 +5,7 @@ export default function SavedTrips() {
     const [trips, setTrips] = useState([])
 
     useEffect(() => {
-        fetch("http://127.0.0.1:8000/api/trips/")
+        fetch("https://trip-planner-qzqj.onrender.com/api/trips/")
             .then(res => res.json())
             .then(data => setTrips(data))
     }, [])
