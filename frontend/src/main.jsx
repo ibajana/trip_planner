@@ -5,7 +5,7 @@ import App from './App'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-    <BrowserRouter>
+    <BrowserRouter basename="/trip_planner">
         <App />
     </BrowserRouter>
 )
